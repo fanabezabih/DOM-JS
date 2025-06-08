@@ -1,6 +1,6 @@
 
 // Question 1: Change document background color to silver
-document.body.style.backgroundColor = "white";
+document.body.style.backgroundColor = "whitesmoke";
 
 // Question 2: Change font color for h1 title to green
 const color = document.getElementById("title");
@@ -21,7 +21,6 @@ document.getElementById("fruList").appendChild(newFruit);
 const newVeg = document.createElement("li");
 newVeg.textContent = "Carrots";
 document.getElementById("vegList").appendChild(newVeg);
-
 
 
 
